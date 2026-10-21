@@ -1,0 +1,342 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+}
+
+header {
+    background-image:url(./mainvisual-pc.jpg);
+    background-size: cover;
+    height: 1290px;
+    width: 100%;
+    color: #fff;
+    writing-mode: vertical-rl;
+}
+
+header img {
+    padding: 50px;
+    margin-right: 50px;
+}
+
+header a {
+    padding: 30px;
+    background-color: #272323;
+    border: 1px solid #fff;
+}
+
+header .online {
+    padding: 50px;
+    margin: 40px;
+    border-color: #352f2f;
+    writing-mode: vertical-rl;
+}
+
+li {
+    list-style: none;
+    line-height: 4rem;
+}
+
+.guide li {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.bor {
+    margin-top: 90px;
+}
+
+
+.ur {
+    position: absolute;
+    left: 40px;
+    bottom: -40px;
+    width: 100px;
+    height: 256px;
+    background: #272323;
+    text-align: center;
+    line-height: 69px;
+}
+
+
+main .news {
+    writing-mode: vertical-rl;
+    margin: 150px 0 350px 0px;
+}
+
+main .val {
+    writing-mode: vertical-rl;
+    position: relative;
+}
+
+main .tec {
+    writing-mode: vertical-rl;
+    margin-left: -350px;
+    position: relative;
+}
+
+main img {
+    height: 70%;
+}
+
+.bor::after {
+    display: block;
+    height: 300px;
+    width: 2px;
+    background-color: #352f2f;
+    content: "";
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.fast::before{
+    display: block;
+    height: 300px;
+    width: 2px;
+    background-color: #352f2f;
+    content: "";
+    margin-right: 35px;
+}
+
+
+.text {
+    writing-mode: horizontal-tb;
+    position: absolute;
+    color: #fff;
+}
+
+.val .text {
+    top: 420px;
+    left: -22px;
+    background-color: rgba(214, 211, 40, 0.5);
+    padding: 50px;
+    width: 250px;
+    text-align: center;
+}
+
+.tec .text {
+    top: 420px;
+    right: -20px;
+    background-color: rgba(214, 40, 49, 0.5);
+    padding: 50px;
+    width: 250px;
+    text-align: center;
+}
+
+
+.in {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.news,.menu {
+    padding-left: 300px;
+}
+
+
+h2 {
+    display: flex;
+    font-size: 45px;
+}
+
+h2 p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    writing-mode: vertical-rl;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.foot {
+    margin-top: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+footer .guide {
+    margin-top: -40px;
+}
+
+.store {
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 40px;
+    height: 420px;
+    display: flex;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.address {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+footer .copy {
+    writing-mode: horizontal-tb;
+    margin: 552px 70% 0 0;
+    font-size: 15px;
+}
+
+/*-------------------------------------------------------------
+スマホ
+-----------------------------------------*/
+@media screen and (max-width: 768px) {
+    header {
+    background-image:url(./mainvisual-sp.jpg);
+    background-size: inherit;
+    height: 900px;
+    width: 100%;
+    background-position-x: center;
+}
+
+header img {
+    padding: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 130px;
+}
+
+main {
+    overflow: hidden;
+}
+
+main .news {
+   margin:0 auto;
+}
+
+.guide li {
+    font-size: 17px;
+    margin-top: 0;
+    line-height: 50px;
+}
+
+main img {
+    height: 25%;
+}
+
+
+h2 {
+    font-size: 20px;
+    margin-top: -20px;
+    writing-mode: vertical-rl;
+}
+
+h2 p {
+    display: none;
+}
+
+.in {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bor::after {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.fast::before {
+    margin-right: 15px;
+}
+
+.borpcnews {
+    display: none;
+}
+
+.news {
+    padding: 100px 0;
+}
+
+.news p {
+    margin-top: 20px;
+}
+
+.news,.menu {
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.val .text {
+    top: 106px;
+        left: -44px;
+        background-color: rgba(214, 211, 40, 0.5);
+        padding: 27px;
+        width: 144px;
+        text-align: center;
+}
+
+.tec .text {
+    top: 105px;
+        right: -26px;
+        background-color: rgba(214, 40, 49, 0.5);
+        padding: 26px;
+        width: 150px;
+        text-align: center;
+}
+
+main .tec {
+    writing-mode: vertical-rl;
+    margin-left: 0;
+    position: relative;
+}
+
+.bor {
+    margin-top: 0;
+}
+
+.val img,.tec img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 60px;
+}
+
+.foot {
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.foot img {
+    height: auto;
+    width: 46px;
+}
+
+footer {
+    height: 500px;
+    width: 100%;
+}
+
+.foot p {
+    font-size: 15px;
+}
+
+.address {
+    line-height: 2px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.store {
+    left: 10px;
+}
+
+}
